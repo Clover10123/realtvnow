@@ -1,311 +1,341 @@
-html {
-    margin:0;
-    padding:0;
-    font-family: "Georgia";
-      font-style: normal;
-  }
-  
-  
-  body {
-    background-color:white;
-    padding:0;
+﻿html {
     margin: 0;
-    bottom: 0;
-    text-align:center;
-  }
-  a{
-  text-align:center;
-  
-  }
-  
-  
-  
-  .header{
-    margin:0;
-    padding:0;
+    padding: 0;
+    font-family: "Georgia";
+    font-style: normal;
+    position: relative;
+    height: 100%;
+}
+
+
+body {
+    background-color: white;
+    padding: 0;
+    margin: 0;
+ height: 100%;
+    text-align: center;
+    position: relative
+
+}
+
+.main-container {
+    min-height: 100px;
+    min-width: 80%;
+    display: block;
+    position: relative;
+    padding-bottom: 60px;
+}
+
+
+a {
+    text-align: center;
+}
+
+
+
+.header {
+    margin: 0;
+    padding: 0;
     top: 0;
     left: 0;
     right: 0;
     font-size: 200%;
-    text-align:center;
-    background-color:#494545;
-   
-  }
-  
-  
-  img{
+    text-align: left;
+    background-color: white;
+}
+
+
+img {
     top: 0;
     right: 0;
-    bottom:0;
-    left:0;
-    margin: 50px;
-  
-  }
-  
-  footer{
-    margin:0;
-    left:0;
-    right:0;
     bottom: 0;
-    position: absolute;
+    left: 0;
+    margin: 50px;
+}
+
+footer {
+    bottom: 0;
     width: 100%;
     height: 60px
-  }
-  nav {
-      min-height:75px;
-    line-height:75px;
-    text-align:center;
+}
+
+nav {
+    min-height: 75px;
+    line-height: 75px;
+    text-align: left;
     margin: 0;
     padding: 0;
-  }
-  button{
-    background-color:#4d4dff;
+    background-color: #494545;
+    position: sticky;
+}
+
+button {
+    background-color: #4d4dff;
     font-size: 16px;
     padding: 10px 16px;
-    color:#ffffff;
+    color: #ffffff;
     border: 5px solid black;
-    font-weight:bold;
+    font-weight: bold;
     border-radius: 4px;
-    
-  }
-  button:hover{
-  background-color:#70dbdb;
-    font-size: 16px;
-    padding: 10px 16px;
-    color:#000000;
-    border: 5px solid white;
-    font-weight:bold;
-    border-radius: 4px;
-    font-style:italic;
-  
-  }
-  
-  p{
+}
+
+    button:hover {
+        background-color: #5394fc;
+        font-size: 16px;
+        padding: 10px 16px;
+        color: #000000;
+        border: 5px solid white;
+        font-weight: bold;
+        border-radius: 4px;
+        font-style: italic;
+    }
+
+p {
     color: black;
     margin: 20px;
     text-align: center;
-    
-    
-  }
-  
-  #emphasis{
-  font-weight:bold;
-  
-  }
-  hr { 
+}
+
+#emphasis {
+    font-weight: bold;
+}
+
+hr {
     background-color: #669999;
-    color:#666699;
+    color: #666699;
     border-width: 5px;
-    
-    
-  
-  }
-  div{
-    background-color:#f0ffff;
+}
+
+div {
+    background-color: #f0ffff;
     color: black;
-    min-height: 500px;
     border: 5px solid black;
-    max-width: 800px;
+    max-width: 100%;
     line-height: 150%;
-     margin: 0 auto;
-     min-width: 500px; 
-  
-  }
-  
-  .center-div
-  {
-       margin: 0 auto;
-       width: 500px; 
-  }
-  
-  
-  .heading{
-  text-align:center;
-  }
-  .choice{
+    margin: 0 auto;
+    min-width: 500px;
+}
+.very-tall {
+    min-height: 1000px;
+
+}
+
+.navbar {
+   border: none;
+    position: relative;
+
+}
+.center-div {
+    margin: 0 auto;
+    width: 500px;
+}
+
+.body-wrap-box {
+    min-height: 80%;
+    min-width: 90%;
+
+}
+
+
+.heading {
+    text-align: center;
+}
+.video-container {
+padding: 50px 10px 50px 10px;
+min-width: 680px;
+min-height: 480px;
+position: static;
+
+
+}
+
+.choice {
     background-color: grey;
-    color:black;
+    color: black;
     border: 5px solid black;
-    min-height:100px;
-    text-align:center;
+    min-height: 100px;
+    text-align: center;
     max-width: 400px;
     min-width: 100px;
-  }
-#alpha{
+}
+
+#alpha {
     background-color: red;
-    color:black;
+    color: black;
     border: 5px solid white;
 }
 
-#alpha:hover{
-    background-color:green;
-    border: 5px solid white;
+    #alpha:hover {
+        background-color: green;
+        border: 5px solid white;
+    }
 
-}
-#beta{
-    background-color:green;
+#beta {
+    background-color: green;
     border: 5px solid white;
 }
 
 #gamma {
-     background-color: red;
-     border: 5px solid white;
+    background-color: red;
+    border: 5px solid white;
 }
 
-#gamma:hover{
-    border: 5px solid white;
-    background-color:red;
+    #gamma:hover {
+        border: 5px solid white;
+        background-color: red;
+    }
+
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 }
-  
-  
-  
-  input[type=text], select, textarea {
-      width: 100%;
-      padding: 12px;
-      border: 1px solid #ccc;
-      border-radius: 4px;
-      box-sizing: border-box;
-      margin-top: 6px;
-      margin-bottom: 16px;
-      resize: vertical;
-  }
-  
-  input[type=submit] {
-      background-color: #4d4dff;
-      color: white;
-      padding: 12px 20px;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-  }
-  
-  input[type=submit]:hover {
-      background-color: #70dbdb;
-  }
-  
-  .container {
-      border-radius: 5px;
-      background-color: #f2f2f2;
-      padding: 20px;
-  }
-  
-  textarea{
+
+input[type=submit] {
+    background-color: #4d4dff;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    input[type=submit]:hover {
+        background-color: #70dbdb;
+    }
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 50%;
+    position:center;
+}
+
+textarea {
     resize: none;
     outline: none;
     width: 394px;
     font-family: tahoma;
     background: #f9f9f9;
-  }
-  
-  textarea:focus{
-    background: #fff;
-  }
-  
-  input[type="submit"]{
+}
+
+    textarea:focus {
+        background: #fff;
+    }
+
+input[type="submit"] {
     width: 400px;
     padding: 5px 0px;
     font-weight: bold;
     margin-top: -6px;
-  }
-  
-  .content{
+}
+
+.content {
     width: 100%;
-  }
-  
-  .comments{
+}
+
+.comments {
     width: 400px;
     margin: 30px auto;
-  }
-  
-  .insert-text{
+}
+
+.insert-text {
     position: relative;
-  }
-  
-  .insert-text .loading{
-    position: absolute;
-    bottom: -25px;
-    display: none;
-  }
-  
-  .insert-text .total-comment{
-    position: absolute;
-    bottom: -25px;
-    right: 0px;
-  }
-  
-  .insert-text .total-comment:before{
-    content: "Total comment: ";
-    font-weight: bold;
-  }
-  
-  .list-comments{
+}
+
+    .insert-text .loading {
+        position: absolute;
+        bottom: -25px;
+        display: none;
+    }
+
+    .insert-text .total-comment {
+        position: absolute;
+        bottom: -25px;
+        right: 0px;
+    }
+
+        .insert-text .total-comment:before {
+            content: "Total comment: ";
+            font-weight: bold;
+        }
+
+.list-comments {
     margin-top: 30px;
     border: 1px solid #ccc;
     background: #f0f0f0;
-  }
-  
-  .list-comments > div{
-    padding: 10px;
-    border-bottom: 1px solid #ccc;
-  }
-  
-  .list-comments > div:last-child{
-    border-bottom: none;
-  }
-  
-  .editor{
+}
+
+    .list-comments > div {
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+
+        .list-comments > div:last-child {
+            border-bottom: none;
+        }
+
+.editor {
     border: 1px solid #ccc;
     border-radius: 5px;
-  }
-  
-  .editor-header{
+}
+
+.editor-header {
     border-bottom: 1px solid #ccc;
-  }
-  
-  .editor-header a{
-    display: inline-block;
-    padding: 10px;
-    color: #666;
-  }
-  
-  .editor-header a:hover{
-    color: #000;
-  }
-  
-  .editor-content{
+}
+
+    .editor-header a {
+        display: inline-block;
+        padding: 10px;
+        color: #666;
+    }
+
+        .editor-header a:hover {
+            color: #000;
+        }
+
+.editor-content {
     padding: 10px;
     outline: none;
     min-height: 80px;
     background: #f9f9f9;
     border-radius: 0px 0px 5px 5px;
-  }
-  
-  .editor-content:focus{
-    background: #fff;
-  }
-  
-  b{
+}
+
+    .editor-content:focus {
+        background: #fff;
+    }
+
+b {
     font-weight: bold;
-  }
-  
-  i{
+}
+
+i {
     font-style: italic;
-  }
-  
-  
-  [data-role="bold"]{
+}
+
+
+[data-role="bold"] {
     font-weight: bold;
-  }
-  
-  [data-role="italic"]{
+}
+
+[data-role="italic"] {
     font-style: italic;
-  }
-  
-  [data-role="underline"]{
+}
+
+[data-role="underline"] {
     text-decoration: underline;
-  }
-  
-  [class^="menu"] {
+}
+
+[class^="menu"] {
     position: relative;
     top: 6px;
     display: block;
@@ -313,50 +343,50 @@ html {
     height: 2px;
     margin: 0 auto;
     background: #999;
-  }
-  
-  [class^="menu"]:before {
-    content: '';
-    top: -5px;
-    width: 80%;
-    position: relative;
-    display: block;
-    height: 2px;
-    margin: 0 auto;
-    background: #999;
-  }
-  
-  [class^="menu"]:after {
-    content: '';
-    top: 3px;
-    width: 80%;
-    position: relative;
-    display: block;
-    height: 2px;
-    margin: 0 auto;
-    background: #999;
-  }
-  
-  .menu-left {
+}
+
+    [class^="menu"]:before {
+        content: '';
+        top: -5px;
+        width: 80%;
+        position: relative;
+        display: block;
+        height: 2px;
+        margin: 0 auto;
+        background: #999;
+    }
+
+    [class^="menu"]:after {
+        content: '';
+        top: 3px;
+        width: 80%;
+        position: relative;
+        display: block;
+        height: 2px;
+        margin: 0 auto;
+        background: #999;
+    }
+
+.menu-left {
     margin-right: 5px;
-  }
-  
-  .menu-left:before{
-    margin-right: 5px;
-  }
-  
-  .menu-left:after{
-    margin-right: 5px;
-  }
-  
-  .menu-right {
+}
+
+    .menu-left:before {
+        margin-right: 5px;
+    }
+
+    .menu-left:after {
+        margin-right: 5px;
+    }
+
+.menu-right {
     margin-left: 5px;
-  }
-  
-  .menu-right:before{
-    margin-left: 5px;
-  }
-  
-  .menu-right:after{
-    margin-left: 5px;
-  }
+}
+
+    .menu-right:before {
+        margin-left: 5px;
+    }
+
+    .menu-right:after {
+        margin-left: 5px;
+    }
